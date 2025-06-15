@@ -69,6 +69,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 background-color: #4d5ae5;
+cursor: pointer;
 }
 .hero-baner-button:hover,
 .hero-baner-button:focus{
@@ -92,14 +93,16 @@ background-color:  #404bbf;
 .advantages-text {
         font-size: 16px;
         letter-spacing: 0.02em;
-}
+        line-height: 1.5;}
 
 /* advantages section end */
 
  /* Team start */
- .team {}
+ .team {background-color: #f4f4fd;
+ }
 
  .team-title {
+   text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -121,13 +124,19 @@ background-color:  #404bbf;
     text-align: center;
     }
 
- .team-text {} 
+ .team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    } 
 
  /* Team end */
  /* Portfolio start */
  .portfolio {}
 
  .portfolio-title {
+    text-transform: capitalize;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -148,6 +157,7 @@ background-color:  #404bbf;
 
  .portfolio-text {
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;}
  /* Portfolio end */
  /* Footer star */
@@ -159,5 +169,6 @@ background-color:  #404bbf;
     .foter-text {
         font-size: 16px;
         letter-spacing: 0.02em;
+        line-height: 1.5;
         color:#f4f4fd;}
  /* Footer end */
