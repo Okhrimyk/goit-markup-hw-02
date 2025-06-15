@@ -10,6 +10,16 @@ body {
      a {
         text-decoration: none;
      }
+         .header .logo-part,
+         .nav-link,
+         .advantages-title-secondary,
+         .team-title,
+         .team-title-secondary,
+         .portfolio-title,
+         .portfolio-title-secondary {
+             color: #2e2f42;
+         }
+     /* Header start */
      .logo {
      font-family: "Raleway", sans-serif;
      font-weight: 700;
@@ -19,16 +29,7 @@ body {
      text-transform: uppercase;
      color: #4d5ae5;
            }
-    .header .logo-part,
-    .nav-link,
-    .advantages-title-secondary,
-    .team-title,
-    .team-title-secondary,
-    .portfolio-title,
-    .portfolio-title-secondary
-    {
-        color: #2e2f42;
-    }
+    
     .nav-link {
         font-weight: 500;
         font-size: 16px;
@@ -46,10 +47,14 @@ body {
     }
 
 .contacts-link {
+line-height: 1.5;
 font-size: 16px;
 letter-spacing: 0.02em;
+color: #434455;
 }
+/* Header end */
 
+/* Hero-baner start */
 .hero-baner,
 .footer {
     background-color: #2e2f42;
@@ -74,6 +79,7 @@ cursor: pointer;
 .hero-baner-button:hover,
 .hero-baner-button:focus{
 background-color:  #404bbf;
+/* Hero=baner end  */
 }
 /* advantages section start */
 
@@ -110,7 +116,9 @@ background-color:  #404bbf;
     text-align: center;
 }
 
- .team-list {}
+ .team-list {
+    background-color: #ffffff;
+ }
 
  .team-items {}
 
