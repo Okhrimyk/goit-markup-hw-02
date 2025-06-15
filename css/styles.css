@@ -117,10 +117,10 @@ background-color:  #404bbf;
 }
 
  .team-list {
-    background-color: #ffffff;
+  background-color: #ffffff;
  }
 
- .team-items {}
+ .team-items {background-color: #ffffff;}
 
  .team-img {}
 
